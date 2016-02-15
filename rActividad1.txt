@@ -1,0 +1,19 @@
+Metodo Main:
+- Que es el metodo main? es el metodo principal donde se comienza la ejecucion del programa. 
+- Para que sirve el metodo main? sirve para comenzar la ejecucion de un programa.
+- Para que sirve el argumento recibido en el metodo main? el argumento se utiliza para almacenar y desplegar la informacion necesaria en pantalla.
+
+Palabras reservadas
+- Que es una palabra reservada? conjunto de letras que no puede ser utilizada como nombre de varibale, clase, metodo etc. ya que esta es utilizada para realizar algun metodo o proceso dentro del lenguaje.
+- Enlista 10 palabras reservadas que recuerdes. main, int, float, decimal, class, for, if, switch, case, do.
+- Consideras que podrias clasificar las palabras reservadas en tipos? De ser afirmativa tu respuesta, Cuales?
+
+Variables
+- Cuales son las reglas para nombrar una variable en java? no pueden iniciar con numeros, no pueden llevar espacios en blanco, no pueden ser iguales a palabras reservadas, solo pueden contener letras numeros y guiones.
+- Que diferencia hay entre variables camel case y variables snake case? camel case ocupa la notacion variableDeNombreX y snake case variale_de_nombre_x
+- Escribe 5 ejemplos de variables validas y de variables invalidas.
+
+Actividad.
+Escribe un programa llamado "Actividad 1" que haga lo siguiente:
+- Al ejecutarse imprima un mensaje "Hola mundo"
+- El mensaje "Hola mundo" este contenido en una variable.
