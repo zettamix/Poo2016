@@ -1,0 +1,48 @@
+Modificadores de visibilidad
+- Cuáles son las palabras reservadas que indican la visibilidad de las cosas en java?
+- Cuál es la diferencia entre ellas?
+
+Valores default o "valores por defecto"
+- Qué es un valor por defecto o un valor default?
+
+Convenciones de java
+- A qué se le llama convencion?
+- Para qué sirve seguir una convención en cualquier lenguaje de programación?
+- Qué sucede si no sigues una convención?
+
+Clases
+- Como identificas una clase en java?
+- Por default, qué visibilidad tiene una clase?
+- Cuáles son las partes de una clase?
+
+Constructores
+- Qué es un constructor?
+- Para qué sirve un constructor?
+- Cuántos constructores puede tener una clase?
+- Qué sucede si no colocas un constructor en una clase?
+
+Tipos primitivos
+- Qué es un tipo primitivo?
+- Cuántos tipos primitivos existen en Java?
+- Qué tipos de valor puede guardar cada tipo primitivo?
+- De acuerdo a las convenciones de Java, cómo distingues un tipo primitivo de un objeto?
+
+Actividad:
+Crea una clase llamada Actividad_2_1 que contenga los siguientes puntos:
+- Sin un constructor
+- Con un método main. En el mismo, crea un objeto de tipo Actividad_2_1. Ejecuta la clase y contesta lo siguiente:
+-* Por qué esto funciona?
+-* Qué constructor se invoca?
+
+Crea una clase llamada Actividad_2_2 que contenga lo siguiente:
+class Actividad_2_2{
+    public static void main (String[] args){
+        System.out.println("Explain me");
+    }
+}
+- Contesta lo siguiente:
+-* Cuál es la visibilidad por default de la clase?
+-* Cuál es la visibilidad por default del método main?
+-* Qué sucede si se cambia la visibilidad de la clase a private o protected?
+-* Qué sucede si se cambia la visibilidad del método main a private o protected?
+-* Qué sucede si se elimina el modificador de visibilidad en el metodo main?
