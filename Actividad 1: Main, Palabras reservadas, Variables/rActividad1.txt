@@ -1,19 +1,49 @@
 Metodo Main:
-- Que es el metodo main? es el metodo principal donde se comienza la ejecucion del programa. 
-- Para que sirve el metodo main? sirve para comenzar la ejecucion de un programa.
-- Para que sirve el argumento recibido en el metodo main? el argumento se utiliza para almacenar y desplegar la informacion necesaria en pantalla.
+- Que es el metodo main?
+Alvaro: es el metodo principal donde se comienza la ejecucion del programa. 
+Juan: Es un metodo dentro de una clase, que efectivamente, indica donde comienza la ejecucion de un programa.
+
+- Para que sirve el metodo main?
+Alvaro: sirve para comenzar la ejecucion de un programa.
+Juan: Sirve para indicar, dentro de una clase, que metodo es el que llevara la ejecucion principal del programa, es decir "este es tu punto de partida".
+
+- Para que sirve el argumento recibido en el metodo main?
+Alvaro: el argumento se utiliza para almacenar y desplegar la informacion necesaria en pantalla.
+Juan: Esta pregunta no esta correctamente contestada. Me refiero al argumento "String[] args" de la declaracion, que va como sigue:
+           public static void main (String[] args) { ...
+      Dicho de otra forma, que se guarda en este parametro? Tienes un chance mas de corregir esta respuesta.
 
 Palabras reservadas
-- Que es una palabra reservada? conjunto de letras que no puede ser utilizada como nombre de varibale, clase, metodo etc. ya que esta es utilizada para realizar algun metodo o proceso dentro del lenguaje.
-- Enlista 10 palabras reservadas que recuerdes. main, int, float, decimal, class, for, if, switch, case, do.
-- Consideras que podrias clasificar las palabras reservadas en tipos? De ser afirmativa tu respuesta, Cuales? Si. Tipos de varibles, ciclos, basicas/principales (main class etc).
+- Que es una palabra reservada?
+Alvaro: conjunto de letras que no puede ser utilizada como nombre de varibale, clase, metodo etc. ya que esta es utilizada para realizar algun metodo o proceso dentro del lenguaje.
+Juan: Bien, pero seria "el conjunto de palabras" y la razon es que tienen un proposito definido dentro de la sintaxis del lenguaje.
+
+- Enlista 10 palabras reservadas que recuerdes.
+Alvaro: main, int, float, decimal, class, for, if, switch, case, do.
+Juan: main y decimal no son palabras reservadas. Este link puede servirte para practicar las palabras reservadas de java: http://www.sporcle.com/games/robv/java_keywords
+
+- Consideras que podrias clasificar las palabras reservadas en tipos? De ser afirmativa tu respuesta, Cuales?
+Alvaro: Si. Tipos de varibles, ciclos, basicas/principales (main class etc).
+Juan: Si, tienes una idea. Iremos ahondando en el tema.
 
 Variables
-- Cuales son las reglas para nombrar una variable en java? no pueden iniciar con numeros, no pueden llevar espacios en blanco, no pueden ser iguales a palabras reservadas, solo pueden contener letras numeros y guiones.
-- Que diferencia hay entre variables camel case y variables snake case? camel case ocupa la notacion variableDeNombreX y snake case variale_de_nombre_x
+- Cuales son las reglas para nombrar una variable en java?
+Alvaro: no pueden iniciar con numeros, no pueden llevar espacios en blanco, no pueden ser iguales a palabras reservadas, solo pueden contener letras numeros y guiones.
+Juan: "Una secuencia ilimitada de caracteres unicode y digitos, comenzando con una letra, signo de pesos o guines bajos" 
+      Siempre dale una revisada a las fuentes oficiales de la documentacion de cada lenguaje, son tu fuente mas confiable.
+      Te dejo el link a la documentacion de Oracle: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
+
+- Que diferencia hay entre variables camel case y variables snake case?
+Alvaro: camel case ocupa la notacion variableDeNombreX y snake case variale_de_nombre_x
+Juan: Trata de explicarlo con palabras, imagina que se lo tienes que explicar a alguien y no tienes forma de anotar.
+      Camel case es la notacion que diferencia entre palabras usando una mayuscula al inicio de cada palabra, exceptuando la primera.
+      Snake case es la notacion que diferencia entre palarbas usando guiones bajos entre palabras.
+
 - Escribe 5 ejemplos de variables validas y de variables invalidas.
-Erroneas: variable 1, 125ciclo, float1, var%, 2dociclo#1.
-Correctas: variable1, ejemploDeVariable, otro_ejemplo, variable-2, noHicePullJojo.
+Alvaro:
+    Erroneas: variable 1, 125ciclo, float1, var%, 2dociclo#1.
+    Correctas: variable1, ejemploDeVariable, otro_ejemplo, variable-2, noHicePullJojo.
+Juan: float1 es un nombre valido porque no hace match directamente con ninguna palabra reservada. Por otra parte, los guiones medios no son parte de nombres validos.
 
 Actividad.
 Escribe un programa llamado "Actividad 1" que haga lo siguiente:
