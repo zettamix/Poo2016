@@ -1,0 +1,75 @@
+
+Modificadores de visibilidad
+- Cuáles son las palabras reservadas que indican la visibilidad de las cosas en java?
+private, protected, public
+- Cuál es la diferencia entre ellas?
+default: solo desde la clases del mismo paquete
+private: visibilidad solo en la misma clase. 
+protectec: visibilidad en la misma clase y sus hijos.
+public: visibilidad desde cualquier lugar.
+
+Valores default o "valores por defecto"
+- Qué es un valor por defecto o un valor default?
+es aquel valor que aparece cuando no es asignado.
+
+Convenciones de java
+- A qué se le llama convencion?
+a un acuerdo o tratado acerca de un tema
+- Para qué sirve seguir una convención en cualquier lenguaje de programación?
+de varias maneras en realidad, entre ellas: mejor entendimiento/lectura del codigo, mejor velocidad de desarrollo en equipo, mejor mantenimiento. 
+- Qué sucede si no sigues una convención?
+se llegan a tener problemas en el desarrollo, esto producto de lo anterior mencionado esto es: velocidad lenta de desarrollo en equipo por el tiempo que se tarda el equipo en entender el codigo, ademas, el mantenimiento se dificulta por la misma razon.
+
+Clases
+- Como identificas una clase en java? 
+se identifica por la palabra class
+- Por default, qué visibilidad tiene una clase? 
+es la default que consiste en que se puede acceder a ella solo desde la clases que pertenecen al mismo paquete
+- Cuáles son las partes de una clase?
+declaracion de la clase (nonbre), cuerpo (variables y metodos)
+
+Constructores
+- Qué es un constructor?
+es aquel que se llama cuando se crea una instancia de un objeto.
+- Para qué sirve un constructor?
+sirve para inicializar los valores del objeto y verificar si son validos.
+- Cuántos constructores puede tener una clase?
+no existe un numero, se pueden crear varios de una misma clase (overload-sobrecarga)
+- Qué sucede si no colocas un constructor en una clase?
+java crea un constructor por defecto
+
+Tipos primitivos
+- Qué es un tipo primitivo?
+son tipos de datos simples, no son objetos y no necesitan invocacion
+- Cuántos tipos primitivos existen en Java?
+8
+- Qué tipos de valor puede guardar cada tipo primitivo?
+depende del tipo del mismo, en resumen son numeros, caracter y booleanos
+- De acuerdo a las convenciones de Java, cómo distingues un tipo primitivo de un objeto?
+???
+
+Actividad:
+Crea una clase llamada Actividad_2_1 que contenga los siguientes puntos:
+- Sin un constructor
+- Con un método main. En el mismo, crea un objeto de tipo Actividad_2_1. Ejecuta la clase y contesta lo siguiente:
+-* Por qué esto funciona? 
+-* Qué constructor se invoca?
+porque se utiliza el contructor default, el cual construye un solo el objeto que no contiene nada.
+
+Crea una clase llamada Actividad_2_2 que contenga lo siguiente:
+class Actividad_2_2{
+    public static void main (String[] args){
+        System.out.println("Explain me");
+    }
+}
+- Contesta lo siguiente:
+-* Cuál es la visibilidad por default de la clase? 
+visibilidad default
+-* Cuál es la visibilidad por default del método main?
+no lo encontre, pero supongo que public, ya que en la documentacion menciona que "The method main must be declared public, static, and void."
+-* Qué sucede si se cambia la visibilidad de la clase a private o protected?
+se indica un error esto porque al contener el metodo main esta debe de ser publica.
+-* Qué sucede si se cambia la visibilidad del método main a private o protected?
+la JVM tendria problema para acceder a el.
+-* Qué sucede si se elimina el modificador de visibilidad en el metodo main?
+se utiliza el default
